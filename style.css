@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.profile-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #39A7FF;
+}
+
+.profile-holder {
+    width: 350px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.profile-header-background img {
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.profile-image {
+    border-radius: 50%;
+    position: absolute;
+    left: 34%;
+    top: 26%;
+    border: 5px solid white;
+}
+
+.user-details {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.user-details div:first-child {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.user-details div:last-child {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+    color: #61677A;
+}
+
+.user-details span:first-child {
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #61677A;
+}
+
+.user-metrics {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #D0D4CA;
+}
+
+.metrics div:first-child {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.metrics div:nth-child(2) {
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #61677A;
+}
